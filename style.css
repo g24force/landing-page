@@ -6,6 +6,7 @@ body {
     font-family: Roboto;
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,9 +28,11 @@ header ul {
     gap: 20px;
   }
 
+  /* Hero section */
+
 .hero-section {
     display: flex;
-    padding: 30px 100px;
+    padding: 70px 100px;
 }
 
 .hero-section h1 {
@@ -41,5 +44,47 @@ header ul {
 .hero-section p,
 header ul {
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
+}
+
+.hero-section img {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.left-side button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 32px;
+}
+
+/* Some random information section */
+
+.random-info h2 {
+    text-align: center;
+}
+
+.random-info {
+    padding: 70px 100px;
+    background-color: white;
+    color: black;
+}
+
+.random-info-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.random-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-content img {
+    border: #3882F6;
 }
