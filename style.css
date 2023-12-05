@@ -6,7 +6,6 @@ body {
     font-family: Roboto;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,8 +26,6 @@ header ul {
     display: flex;
     gap: 20px;
   }
-
-  /* Hero section */
 
 .hero-section {
     display: flex;
@@ -52,7 +49,7 @@ header ul {
     padding: 20px;
 }
 
-.left-side button {
+button {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
@@ -61,8 +58,6 @@ header ul {
     border: 0;
     padding: 10px 32px;
 }
-
-/* Some random information section */
 
 .random-info h2 {
     text-align: center;
@@ -87,4 +82,50 @@ header ul {
 
 .random-content img {
     border: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+    padding: 30px 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cta-block {
+    padding: 70px 100px;
+    background-color: white;
+}
+
+.bg-rectangle {
+    background-color: #3882F6;
+    padding: 10px 10px;
+    margin: 50px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.bg-rectangle button {
+    border: solid 1px white;
 }
